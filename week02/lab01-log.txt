@@ -1,0 +1,57 @@
+    1  cd ~
+    2  clear
+    3  history
+    4  clear
+    5  pwd
+    6  ls
+    7  ls -a
+    8  ls -l
+    9  mkdir coding-cafe
+   10  cd coding0cafe
+   11  cd coding-cafe
+   12  mkdir week01
+   13  mkdir week02
+   14  touch README.md
+   15  cd week02
+   16  touch README.md
+   17  touch notes.md
+   18  rm README.md
+   19  cd ~
+   20  ls coding-cafe/week02
+   21  cd coding-cafe
+   22  cp README.md README-backup.md
+   23  mv README-backup.md week01/
+   24  cd week01
+   25  mv README-backup.md old-readme.md
+   26  ls
+   27  rm ols-readme.md
+   28  rm old-readme.md
+   29  ls
+   30  echo $PATH
+   31  which python3 
+   32  which pip
+   33  which ls
+   34  pyton
+   35  which pyton
+   36  pyton
+   37  pyton3
+   38  cd ~/coding-cafe
+   39  python3 -m venv .venv
+   40  ls
+   41  ls -a
+   42  source .venv/bin/activate
+   43  which python3
+   44  pip list
+   45  pip install requests
+   46  pip list
+   47  deactivate
+   48  which python3
+   49  man ls
+   50  man man
+   51  man ls
+   52  man man
+   53  cd ~
+   54  cd coding-cafe/
+   55  history
+   56  python3
+   57  history > week02/lab01-log.txt
